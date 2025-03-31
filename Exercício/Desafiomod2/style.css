@@ -1,0 +1,155 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(73, 170, 110);
+}
+@font-face{ 
+    font-family: 'idroid';
+    src: url('idroid.otf') format('opentype');
+    
+}
+
+header{
+    background-image:linear-gradient(to top, #1A5C38, #35BD72 );
+    min-height: 160px;
+    text-align: center;
+    padding-top: 40px;
+    margin: auto;
+    
+
+}
+
+header > h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px black;
+    
+    
+    
+}
+
+header > p{
+    color: rgba(255, 255, 255, 0.692);
+    text-align: center;
+    font-size: 1.2empx;
+    max-width: 600px;
+    padding-right: 26px;
+    padding-left: 10px;
+    margin: auto;
+    text-align: 2px 2px 0px rgba(0,0,0,0);
+
+}
+
+nav{
+    color:#000000 ;
+    font-size: 20px;
+    text-align: justify;
+    box-shadow: 0px 7px 7px black;   
+}
+
+nav > a{
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    background-color: rgb(3, 121, 48);
+    color: #000000;
+}
+main{
+    background-color: white;
+    text-align: center;
+    width: 820px;
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 6px;
+    padding: 10px;
+    border-radius; #000000;
+}
+main > h1 {
+    color: #062b16;
+   font-family: 'idroid', time, serif;
+   text-align: justify;
+}
+main > h2 {
+    font-family: 'idroid', time, serif;
+    color: #1A5C38;
+    text-align: justify;
+}
+
+main > p {
+    text-indent: 10px;
+    font-size: 20px;
+    text-align: left;
+    
+}
+a{
+    font-weight: bold;
+   color: #1A5C38;
+}
+
+aside{
+    background-color:white;
+    text-align: center;
+    width: 820px;
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 1px;
+    padding: 10px;
+    border-radius; #000000;
+}
+main.video{
+    background-color: #062b16;
+    margin-top: 1px;
+    padding-bottom: 20px 20px 20px;
+    width: 820px;
+   
+}
+main.video > iframe{
+    text-align: center;
+    padding: 20px 20px 20px;
+    width: 680px;
+    
+} 
+aside{
+    background-color:#CCE9D7;
+}
+
+aside > h1{
+    background-color: #71D88C;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    min-width: 400px;
+    max-width: 800px;
+   
+}
+
+aside > p{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+aside > ul{
+   padding: 5px 2px 2px;
+}
+
+aside > ul.lista-duas-colunas {
+    text-align: left;
+    column-count: 2;
+    column-gap: 20px; 
+    padding-top: 100px;
+    list-style-type: none;    
+    padding: 10px;
+
+}
+
+aside > a{
+    font-weight: bold;
+}
