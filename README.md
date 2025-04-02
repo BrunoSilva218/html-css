@@ -3,4 +3,4 @@
 
 Estou aprendedo a criar sites e agora vou gerenciar meu reposítorio!
 
-<a href="https://BrunoSilva218.github.ioc:\Users\MEN\Documents\estudos/html-css/exercicio/ex001/index">Exercutar o exercício desse links</a>
+<a href="https://BrunoSilva218.github.ioc:\Users\MEN\Documents\estudos/html-css/exercicio/ex001/index.html">Exercutar o exercício desse links</a>
