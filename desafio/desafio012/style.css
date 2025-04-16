@@ -16,14 +16,18 @@ header {
     padding-left: 50px;
 
 }
+
 a{
     color: white;
 
 }
+
 section{
+    font-family: 'cookie';
 }
- p{
-    font-family: cookie;
+
+section > p{
+ 
  }
 section > pre{
     white-space: pre-line;
