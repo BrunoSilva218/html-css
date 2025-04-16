@@ -1,0 +1,22 @@
+@charset "UFT-8";
+    @font-face{ 
+        font-family: 'fonte';
+        src: url(Passion_One/OFL.txt) format('opentype');
+
+        
+}
+body{
+ 
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-family: var(--fonte);
+}
+
+a{
+    color: white;
+
+}
