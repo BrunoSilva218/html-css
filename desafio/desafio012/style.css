@@ -11,9 +11,10 @@
 body{
     
 }
+
 header {
     background-color: black;
-    color: white;
+    color: rgba(228, 226, 226, 0.89);
     text-align: center;
     margin: auto;
     padding:20px ;
@@ -23,26 +24,29 @@ header {
 }
 
 header > p{
-    color: rgba(255, 255, 255, 0.644);
+    color: aliceblue;
 
 }
-header > a{
-    color: azure;
+a{
+    color: aliceblue;    
 }
+
 section{
     font-size: 2em;
 }
+
 section > pre{
     white-space: pre-line;
     font-family: paragrafo;
 }
+
 footer{
-    background-color: blue;
-    color: white;
-    font-weight: bold;
+    background-color: rgb(163, 163, 163);
     text-align: center;
 }
-footer > .d1{
-    color: white;
-   
+footer > p{
+    color: rgb(0, 0, 0);
+}
+footer > a#q1{
+    color: rgb(0, 0, 0);
 }
