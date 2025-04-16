@@ -1,7 +1,11 @@
 @charset "UTF-8";
  @font-face {
-    font-family: 'cookie';
-    src: url ('fontes/cookie.zip')
+    font-family: passio;
+    src: url('fontes/Cookie/PassionOne-Black.ttf') format(truetype);
+ }
+ @font-face {
+    font-family: paragrafo;
+    src: url('fontes/Cookie/PassionOne-Regular.ttf');
  }
 
 body{
@@ -14,21 +18,31 @@ header {
     margin: auto;
     padding:20px ;
     padding-left: 50px;
-
+    font-size: 2em;
+    font-family: passio;
 }
 
-a{
-    color: white;
+header > p{
+    color: rgba(255, 255, 255, 0.644);
 
 }
-
+header > a{
+    color: azure;
+}
 section{
-    font-family: 'cookie';
+    font-size: 2em;
 }
-
-section > p{
- 
- }
 section > pre{
     white-space: pre-line;
+    font-family: paragrafo;
+}
+footer{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+footer > .d1{
+    color: white;
+   
 }
