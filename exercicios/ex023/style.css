@@ -4,9 +4,21 @@ body{
 }
 table{
     width: 400px;
+    height: 400px;
     border-collapse: collapse;
 }
+
+
 td{
     border: 1px solid black;
     padding: 5px;
+    text-align: center; /*alinhamento horizontal*/
+    vertical-align: middle; /*alinhamenti vertical*/
 }
+
+.numero{
+
+}
+
+
+
