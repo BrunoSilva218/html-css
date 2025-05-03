@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 02</title>
+    <style>
+        body{
+            background-color: rgb(175, 174, 173);
+        }
+
+        table{
+            width: 300px;
+            border-collapse: collapse;
+        }
+        td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        a:hover{
+            background-color: blue;
+            color: white;
+        }
+       
+        td.q1:hover{
+            background-color: aquamarine;
+        }
+
+        td.q2:hover{
+            background-color: blueviolet;
+        }
+        td.q3:hover{
+            background-color: chartreuse;
+        }
+        td.q4:hover{
+            background-image:linear-gradient(red,rgb(0, 0, 0));
+        }
+        tr.normal:hover{
+            background-image: linear-gradient(rgb(176, 212, 13),rgb(30, 30, 109));
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio 2</h1>
+
+    <table>
+        <tr>
+            <td class="q1" colspan="4">A</td>
+            <td class="q2" rowspan="6">B</td>
+            <tr>
+                <tr>
+                    <td class="q3" rowspan="5">C</td>
+                </tr>
+                <tr class="normal">
+                    <td>D</td>
+                    <td>E</td>
+                    <td>F</td>
+                </tr>
+            </tr>
+            <tr class="normal">
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+            </tr>
+            <tr class="normal">
+                <td>J</td>
+                <td>L</td>
+                <td>M</td>
+            </tr>
+            <tr>
+                <td class="q4" colspan="4">N</td>
+            </tr>
+            </tr>
+    </table>
+
+    <a href="tabela004.html">Link para o primeiro Desafio</a>
+    
+</body>
+</html>
