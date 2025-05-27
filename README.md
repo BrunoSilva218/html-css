@@ -5,4 +5,6 @@ Estou aprendedo a criar sites e agora vou gerenciar meu reposítorio!
 
 <a href="https://brunosilva218.github.io/html-css/exercicios/ex001/index.html">Exercutar o exercício 001 desse link</a>
 
+<a href="file:///C:/Users/MEN/Documents/estudos/html-css/exercicios/ex025/form005.html">Exercutar o exercio do formulário checkbox e radio desse link.</a>
+
 <a href="https://brunosilva218.github.io/html-css/exercicios/MOd2criandoExemplo/index.html">Exercutar o exercício sobre exemplo com html e css</a>
