@@ -8,6 +8,9 @@ body{
     
 }
 
+body {
+   
+}
 header{
     background-image:linear-gradient(to top, #1A5C38, #35BD72 );
     min-height: 160px;
@@ -58,6 +61,7 @@ nav > a{
 nav > a:hover{
     background-color: rgb(3, 121, 48);
     color: #000000;
+    border-radius: 50px;
      
 }
 
@@ -147,11 +151,22 @@ aside > p.final{
 footer{
     background-color: #062b16;
     color: aliceblue;
-    margin-top: 50px;
+    margin: auto;
     text-align: center;
+
     
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px;
+
 
 }
 footer > a{
     color: beige;
+}
+
+footer > a:hover {
+    color: rgba(200, 241, 49, 0.377);
 }
